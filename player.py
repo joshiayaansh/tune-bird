@@ -5,6 +5,6 @@ class Player:
     velocity = pygame.Vector2()
     velocity.xy = 3, 0
     acceleration = 0.1
-    rightSprite = pygame.image.load('tune.png')
+    rightSprite = pygame.image.load('data/gfx/tune.png')
     leftSprite = pygame.transform.flip(rightSprite, True, False)
     currentSprite = rightSprite
